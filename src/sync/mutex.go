@@ -28,10 +28,10 @@ type Locker interface {
 }
 
 const (
-	mutexLocked = 1 << iota // mutex 上了锁
-	mutexWoken
-	mutexStarving
-	mutexWaiterShift = iota
+	mutexLocked      = 1 << iota // 1 << 0 = 1，mutex 上了锁
+	mutexWoken                   // 1 << 1 = 2
+	mutexStarving                // 1 << 2 = 4
+	mutexWaiterShift = iota      // 0
 
 	// Mutex（互斥量）是公平的.
 	//
@@ -155,7 +155,7 @@ func (m *Mutex) Unlock() {
 		race.Release(unsafe.Pointer(m))
 	}
 
-	// 快路径（fast path）：去年锁定的位。
+	// 快路径（fast path）：去掉锁定的位。
 	new := atomic.AddInt32(&m.state, -mutexLocked)
 	if (new+mutexLocked)&mutexLocked == 0 {
 		throw("sync: unlock of unlocked mutex")
