@@ -1,0 +1,214 @@
+Running tool: D:\Program Files (x86)\Go\bin\go.exe test -timeout 10s -run ^TestQuestion2$ question2 -v -count=1
+
+=== RUN   TestQuestion2
+total work count: 100
+sleep 114ms, relative time:     3 to   121
+sleep 119ms, relative time:     3 to   122
+sleep  17ms, relative time:   122 to   153
+sleep 148ms, relative time:     3 to   153
+sleep 163ms, relative time:     3 to   168
+sleep 185ms, relative time:     3 to   189
+sleep  25ms, relative time:   189 to   219
+sleep  67ms, relative time:   153 to   239
+sleep 116ms, relative time:   168 to   298
+sleep 182ms, relative time:   122 to   313
+sleep  93ms, relative time:   219 to   313
+sleep  75ms, relative time:   239 to   329
+sleep 168ms, relative time:   153 to   329
+sleep  72ms, relative time:   329 to   410
+sleep  79ms, relative time:   313 to   411
+sleep  18ms, relative time:   410 to   438
+sleep 128ms, relative time:   313 to   454
+sleep  22ms, relative time:   439 to   469
+sleep 158ms, relative time:   298 to   470
+sleep  66ms, relative time:   470 to   536
+sleep 197ms, relative time:   329 to   536
+sleep  75ms, relative time:   469 to   552
+sleep 103ms, relative time:   454 to   567
+sleep 144ms, relative time:   411 to   567
+sleep  48ms, relative time:   552 to   610
+sleep 101ms, relative time:   536 to   642
+sleep 141ms, relative time:   536 to   684
+sleep 119ms, relative time:   567 to   694
+sleep 131ms, relative time:   567 to   704
+sleep  81ms, relative time:   642 to   742
+sleep  40ms, relative time:   704 to   747
+sleep 156ms, relative time:   610 to   766
+sleep  63ms, relative time:   694 to   782
+sleep 150ms, relative time:   684 to   846
+sleep 105ms, relative time:   748 to   862
+sleep 128ms, relative time:   742 to   881
+sleep  87ms, relative time:   782 to   881
+sleep  20ms, relative time:   862 to   883
+sleep   9ms, relative time:   881 to   893
+sleep  49ms, relative time:   881 to   940
+sleep 179ms, relative time:   766 to   952
+sleep  84ms, relative time:   884 to   984
+sleep  96ms, relative time:   893 to   999
+sleep 161ms, relative time:   846 to  1014
+cur worker count: 5
+sleep  13ms, relative time:  1015 to  1030
+sleep 110ms, relative time:   940 to  1056
+sleep  10ms, relative time:  1056 to  1071
+sleep  91ms, relative time:   984 to  1088
+sleep  65ms, relative time:  1030 to  1103
+sleep 177ms, relative time:   952 to  1135
+sleep  51ms, relative time:  1071 to  1135
+sleep  31ms, relative time:  1103 to  1135
+sleep 136ms, relative time:   999 to  1150
+sleep  11ms, relative time:  1150 to  1166
+sleep  74ms, relative time:  1135 to  1222
+sleep  72ms, relative time:  1135 to  1222
+sleep 153ms, relative time:  1088 to  1252
+sleep  44ms, relative time:  1222 to  1266
+sleep 149ms, relative time:  1135 to  1298
+sleep  50ms, relative time:  1266 to  1329
+sleep 178ms, relative time:  1166 to  1345
+sleep 156ms, relative time:  1222 to  1389
+sleep 134ms, relative time:  1252 to  1389
+sleep 115ms, relative time:  1298 to  1422
+sleep 104ms, relative time:  1345 to  1458
+sleep  23ms, relative time:  1422 to  1458
+sleep 157ms, relative time:  1330 to  1495
+sleep 133ms, relative time:  1389 to  1526
+sleep  29ms, relative time:  1495 to  1529
+sleep  21ms, relative time:  1529 to  1558
+sleep 178ms, relative time:  1389 to  1573
+sleep  60ms, relative time:  1526 to  1588
+sleep 117ms, relative time:  1459 to  1589
+sleep  15ms, relative time:  1589 to  1621
+sleep 164ms, relative time:  1459 to  1637
+sleep  52ms, relative time:  1621 to  1685
+sleep 158ms, relative time:  1573 to  1731
+sleep  15ms, relative time:  1731 to  1746
+sleep 185ms, relative time:  1558 to  1746
+sleep   3ms, relative time:  1746 to  1761
+sleep  27ms, relative time:  1746 to  1776
+sleep 193ms, relative time:  1589 to  1787
+sleep 133ms, relative time:  1685 to  1826
+sleep 179ms, relative time:  1637 to  1826
+sleep  76ms, relative time:  1776 to  1863
+sleep 110ms, relative time:  1826 to  1940
+sleep 166ms, relative time:  1787 to  1955
+sleep  12ms, relative time:  1940 to  1956
+sleep 185ms, relative time:  1761 to  1955
+sleep 117ms, relative time:  1863 to  1987
+sleep 147ms, relative time:  1826 to  1987
+cur worker count: 5
+sleep  50ms, relative time:  1987 to  2049
+sleep  66ms, relative time:  1987 to  2069
+sleep  98ms, relative time:  1956 to  2069
+sleep  94ms, relative time:  1956 to  2069
+sleep 147ms, relative time:  1956 to  2118
+sleep  86ms, relative time:  2069 to  2166
+sleep  96ms, relative time:  2069 to  2166
+sleep 116ms, relative time:  2049 to  2166
+sleep 122ms, relative time:  2069 to  2197
+cur worker count: 5
+cur worker count: 5
+cur worker count: 5
+worker count at the end: 0
+pool buf len at the end: 0
+[3 121]
+[3 122]
+[3 153]
+[3 168]
+[3 189]
+[122 153]
+[122 313]
+[153 239]
+[153 329]
+[168 298]
+[189 219]
+[219 313]
+[239 329]
+[298 470]
+[313 411]
+[313 454]
+[329 410]
+[329 536]
+[410 438]
+[411 567]
+[439 469]
+[454 567]
+[469 552]
+[470 536]
+[536 642]
+[536 684]
+[552 610]
+[567 694]
+[567 704]
+[610 766]
+[642 742]
+[684 846]
+[694 782]
+[704 747]
+[742 881]
+[748 862]
+[766 952]
+[782 881]
+[846 1014]
+[862 883]
+[881 893]
+[881 940]
+[884 984]
+[893 999]
+[940 1056]
+[952 1135]
+[984 1088]
+[999 1150]
+[1015 1030]
+[1030 1103]
+[1056 1071]
+[1071 1135]
+[1088 1252]
+[1103 1135]
+[1135 1222]
+[1135 1222]
+[1135 1298]
+[1150 1166]
+[1166 1345]
+[1222 1266]
+[1222 1389]
+[1252 1389]
+[1266 1329]
+[1298 1422]
+[1330 1495]
+[1345 1458]
+[1389 1526]
+[1389 1573]
+[1422 1458]
+[1459 1589]
+[1459 1637]
+[1495 1529]
+[1526 1588]
+[1529 1558]
+[1558 1746]
+[1573 1731]
+[1589 1621]
+[1589 1787]
+[1621 1685]
+[1637 1826]
+[1685 1826]
+[1731 1746]
+[1746 1761]
+[1746 1776]
+[1761 1955]
+[1776 1863]
+[1787 1955]
+[1826 1940]
+[1826 1987]
+[1863 1987]
+[1940 1956]
+[1956 2069]
+[1956 2069]
+[1956 2118]
+[1987 2049]
+[1987 2069]
+[2049 2166]
+[2069 2166]
+[2069 2166]
+[2069 2197]
+--- PASS: TestQuestion2 (5.21s)
+PASS
+ok  	question2	5.437s
